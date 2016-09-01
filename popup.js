@@ -4,7 +4,7 @@ function loadUrls(){
   // fetch urls from text area and load them //
   var urls = localStorage[localStorageName];
 
-  if(urls == undefined){
+  if (urls == undefined){
     urls = "";
   } else {
     urls = JSON.parse(urls);
