@@ -1,15 +1,19 @@
 {
-  "name": "Multi Tab Opener",
+  "name": "Multi Tab Opener For General Assembly Students",
   "description": "Opens multiple links in Chrome browser",
   "version": "1.0",
   "manifest_version": 2,
   "browser_action": {
-    "default_icon": "icon.png",
+    "default_icon": "general-assembly-logo.png",
     "default_popup": "popup.html"
   },
   "permissions": [
     "tabs",
     "storage",
     "cookies"
-  ]
+  ],
+  "icons": {
+    "16": "favicon.ico",
+    "48": "assests/img/general-assembly-logo.png"
+  }
 }
